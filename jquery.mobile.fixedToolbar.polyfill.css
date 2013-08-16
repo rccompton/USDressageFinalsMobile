@@ -1,0 +1,30 @@
+/*!
+ jQuery Mobile fixedtoolbar polyfill for blacklisted browsers that don't natively support position:fixed
+ Author @scottjehl
+ Copyright 2012 Filament Group, Inc.
+ License Dual MIT or GPLv2
+*/
+.ui-fixed-faux.ui-header-fixed,
+.ui-fixed-faux.ui-footer-fixed {
+	position: absolute;
+}
+.ui-header-fixed.ui-fixed-hidden.ui-fixed-faux {
+	top: 0 !important;
+}
+.ui-footer-fixed.ui-fixed-hidden.ui-fixed-faux {
+	bottom: 0 !important;
+}
+ /*
+.ui-mobile-viewport{
+	 background: url("http://images1.wikia.nocookie.net/__cb20090704061234/harrypotter/images/6/61/Harry-Potter-the-Order-Phoenix-832.jpg") no-repeat;
+    
+	background: url("images/background.jpg") no-repeat;
+    background-size: 100% 100% !important;
+}
+.ui-page{
+    background:none;
+}
+.ui-overlay-a{
+    background:#222 !important;
+} 
+*/
